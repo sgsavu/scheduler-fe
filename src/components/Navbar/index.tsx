@@ -12,8 +12,6 @@ export const Navbar = memo<NavbarProps>(function Navbar({
     onSelectedTabChange,
     selectedTab
 }) {
-    
-
     return (
         <div className="navbar">
             {items.map((item, i) => {
