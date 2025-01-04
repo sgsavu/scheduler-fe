@@ -1,27 +1,9 @@
-
-
-.appcontainer {
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  flex-direction: row;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
-.tab {
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  padding: 0 100px;
-
-  overflow: auto;
-}
-
-.icon {
-  height: 50px;
+.tasks {
+    display: flex;
+    flex-direction: column;
 }

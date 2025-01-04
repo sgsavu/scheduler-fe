@@ -1,3 +1,5 @@
+
+
 .task {
     display: flex;
     flex-direction: column;
@@ -14,6 +16,8 @@
     justify-content: space-between;
     align-items: center;
 
+    padding: 10px;
+
     &.done {
         border-color: #53ff98;
     }
@@ -25,8 +29,6 @@
     &.expired {
         border-color: #ffbc36;
     }
-
-    padding: 4px 8px;
 }
 
 .task-pill-header {
@@ -174,24 +176,6 @@
     >svg {
         fill: #f52e2e;
         height: 10px;
-    }
-
-}
-
-.download-icon {
-    padding: 0.2em 0.5em;
-
-    &:disabled {
-        >svg {
-            stroke: #9d9d9d;
-            fill: #9d9d9d;
-        }
-    }
-
-    >svg {
-        stroke: #53ff98;
-        fill: #53ff98;
-        height: 12px;
     }
 
 }
